@@ -33,8 +33,8 @@ function prevent(e) {
       numbers.appendChild(table);
 
       function getRandom() {
-        var min = 100;
-        var max = 999;
+        var min = 1;
+        var max = 99;
         return Math.floor(Math.random() * (max - min)) + min;
       }
     }
